@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">25</td><td class="numi">25</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">762.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="4">smokeTestFirefox.ValidateSmokeTest</td><td><a href="#m1"><b>ValidateAllProduct</b>  </a></td><td class="numi">1</td><td>1525314756893</td><td class="numi">5290</td></tr><tr class="failedodd"><td><a href="#m2"><b>ValidateAudioCablesCategory</b>  </a></td><td class="numi">1</td><td>1525314762186</td><td class="numi">10020</td></tr><tr class="failedodd"><td><a href="#m3"><b>ValidateCheckoutProcess</b>  </a></td><td class="numi">1</td><td>1525314812652</td><td class="numi">10022</td></tr><tr class="failedodd"><td><a href="#m4"><b>ValidateStandardsCatalogDetail</b>  </a></td><td class="numi">1</td><td>1525314712200</td><td class="numi">44688</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="25">smokeTestFirefox.ValidateSmokeTest</td><td><a href="#m5"><b>ValidateAddToCart</b>  </a></td><td class="numi">1</td><td>1525314591235</td><td class="numi">54596</td></tr><tr class="passedodd"><td><a href="#m6"><b>ValidateAllReportsLinks</b>  </a></td><td class="numi">1</td><td>1525315130440</td><td class="numi">69734</td></tr><tr class="passedodd"><td><a href="#m7"><b>ValidateCalendarLinks</b>  </a></td><td class="numi">1</td><td>1525315018447</td><td class="numi">111991</td></tr><tr class="passedodd"><td><a href="#m8"><b>ValidateCalendarPage</b>  </a></td><td class="numi">1</td><td>1525314987860</td><td class="numi">30585</td></tr><tr class="passedodd"><td><a href="#m9"><b>ValidateCartPage</b>  </a></td><td class="numi">1</td><td>1525314795975</td><td class="numi">7636</td></tr><tr class="passedodd"><td><a href="#m10"><b>ValidateCheckoutFooterLogo</b>  </a></td><td class="numi">1</td><td>1525314829529</td><td class="numi">8343</td></tr><tr class="passedodd"><td><a href="#m11"><b>ValidateCheckoutHeaderLogo</b>  </a></td><td class="numi">1</td><td>1525314822678</td><td class="numi">6850</td></tr><tr class="passedodd"><td><a href="#m12"><b>ValidateFavoriteIcon</b>  </a></td><td class="numi">1</td><td>1525314515432</td><td class="numi">54572</td></tr><tr class="passedodd"><td><a href="#m13"><b>ValidateFooterLinks</b>  </a></td><td class="numi">1</td><td>1525314837873</td><td class="numi">36771</td></tr><tr class="passedodd"><td><a href="#m14"><b>ValidateFooterLogo</b>  </a></td><td class="numi">1</td><td>1525314663590</td><td class="numi">12478</td></tr><tr class="passedodd"><td><a href="#m15"><b>ValidateHeaderLogo</b>  </a></td><td class="numi">1</td><td>1525314690292</td><td class="numi">8303</td></tr><tr class="passedodd"><td><a href="#m16"><b>ValidateLogin</b>  </a></td><td class="numi">1</td><td>1525314470435</td><td class="numi">44994</td></tr><tr class="passedodd"><td><a href="#m17"><b>ValidateMyProfNavigation</b>  </a></td><td class="numi">1</td><td>1525314676073</td><td class="numi">14216</td></tr><tr class="passedodd"><td><a href="#m18"><b>ValidatePAEmail</b>  </a></td><td class="numi">1</td><td>1525314973608</td><td class="numi">14249</td></tr><tr class="passedodd"><td><a href="#m19"><b>ValidatePDP</b>  </a></td><td class="numi">1</td><td>1525314645844</td><td class="numi">12601</td></tr><tr class="passedodd"><td><a href="#m20"><b>ValidatePurchaseAnalysisPage</b>  </a></td><td class="numi">1</td><td>1525314953130</td><td class="numi">20476</td></tr><tr class="passedodd"><td><a href="#m21"><b>ValidateRecentViewLink</b>  </a></td><td class="numi">1</td><td>1525314658446</td><td class="numi">5143</td></tr><tr class="passedodd"><td><a href="#m22"><b>ValidateRemoveFromCart</b>  </a></td><td class="numi">1</td><td>1525314803612</td><td class="numi">9039</td></tr><tr class="passedodd"><td><a href="#m23"><b>ValidateResources</b>  </a></td><td class="numi">1</td><td>1525314772209</td><td class="numi">13977</td></tr><tr class="passedodd"><td><a href="#m24"><b>ValidateSavedReports</b>  </a></td><td class="numi">1</td><td>1525315200175</td><td class="numi">19939</td></tr><tr class="passedodd"><td><a href="#m25"><b>ValidateSearching</b>  </a></td><td class="numi">1</td><td>1525314570007</td><td class="numi">21226</td></tr><tr class="passedodd"><td><a href="#m26"><b>ValidateSpecialOffer</b>  </a></td><td class="numi">1</td><td>1525314786186</td><td class="numi">9788</td></tr><tr class="passedodd"><td><a href="#m27"><b>ValidateStandardsCatalog</b>  </a></td><td class="numi">1</td><td>1525314698596</td><td class="numi">13602</td></tr><tr class="passedodd"><td><a href="#m28"><b>ValidateTrackpage</b>  </a></td><td class="numi">1</td><td>1525314874646</td><td class="numi">25359</td></tr><tr class="passedodd"><td><a href="#m29"><b>ValidateordersPage</b>  </a></td><td class="numi">1</td><td>1525314900008</td><td class="numi">53121</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">smokeTestFirefox.ValidateSmokeTest:ValidateAudioCablesCategory</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: (//a[text()=&apos;Audio Cables&apos;])[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bilaw\AppData\Local\Temp\rust_mozprofile.2Q8QNTu7J8Au, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0a1, platformVersion=10.0, moz:processID=8992.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: a7066d96-d891-4972-b612-cf9a7b843790
+*** Element info: {Using=xpath, value=(//a[text()=&apos;Audio Cables&apos;])[2]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+<br/>at pageObjects.AllProducts.getAudioCablesFF(AllProducts.java:29)
+<br/>at smokeTestFirefox.ValidateSmokeTest.ValidateAudioCablesCategory(ValidateSmokeTest.java:523)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">smokeTestFirefox.ValidateSmokeTest:ValidateStandardsCatalogDetail</h2>
+<div style="padding-left:3em">
+<p>Expected condition failed: waiting for element to be clickable: [[FirefoxDriver: firefox on ANY (a7066d96-d891-4972-b612-cf9a7b843790)] -&gt; xpath: (//button[@title=&apos;Close (Esc)&apos;])[2]] (tried for 20 second(s) with 500 MILLISECONDS interval)
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bilaw\AppData\Local\Temp\rust_mozprofile.2Q8QNTu7J8Au, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0a1, platformVersion=10.0, moz:processID=8992.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: a7066d96-d891-4972-b612-cf9a7b843790</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
+<br/>at smokeTestFirefox.ValidateSmokeTest.ValidateStandardsCatalogDetail(ValidateSmokeTest.java:494)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">smokeTestFirefox.ValidateSmokeTest:ValidateCheckoutProcess</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //a[@class=&apos;btn btn-primary proceed-checkout &apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-GAH683G&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;9.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\bilaw\AppData\Local\Temp\rust_mozprofile.2Q8QNTu7J8Au, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0a1, platformVersion=10.0, moz:processID=8992.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt, moz:webdriverClick=false}]
+Session ID: a7066d96-d891-4972-b612-cf9a7b843790
+*** Element info: {Using=xpath, value=//a[@class=&apos;btn btn-primary proceed-checkout &apos;]}</p>
+java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+<br/>at pageObjects.CartPage.getCheckoutBtnFF(CartPage.java:38)
+<br/>at smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess(ValidateSmokeTest.java:634)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">smokeTestFirefox.ValidateSmokeTest:ValidateAllProduct</h2>
+<div style="padding-left:3em">
+<p>expected [All Products - MarkITplace] but found [HP Officejet Pro 8710 All-in-One - Multifunction printer - MarkITplace]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at smokeTestFirefox.ValidateSmokeTest.ValidateAllProduct(ValidateSmokeTest.java:516)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">smokeTestFirefox.ValidateSmokeTest:ValidateFooterLinks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">smokeTestFirefox.ValidateSmokeTest:ValidateFooterLogo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">smokeTestFirefox.ValidateSmokeTest:ValidateCheckoutFooterLogo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">smokeTestFirefox.ValidateSmokeTest:ValidatePAEmail</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">smokeTestFirefox.ValidateSmokeTest:ValidateCheckoutHeaderLogo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">smokeTestFirefox.ValidateSmokeTest:ValidateAllReportsLinks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">smokeTestFirefox.ValidateSmokeTest:ValidateHeaderLogo</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">smokeTestFirefox.ValidateSmokeTest:ValidateAddToCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">smokeTestFirefox.ValidateSmokeTest:ValidateRemoveFromCart</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">smokeTestFirefox.ValidateSmokeTest:ValidateStandardsCatalog</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">smokeTestFirefox.ValidateSmokeTest:ValidateTrackpage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">smokeTestFirefox.ValidateSmokeTest:ValidateCartPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">smokeTestFirefox.ValidateSmokeTest:ValidateResources</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">smokeTestFirefox.ValidateSmokeTest:ValidateLogin</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">smokeTestFirefox.ValidateSmokeTest:ValidateSpecialOffer</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">smokeTestFirefox.ValidateSmokeTest:ValidateRecentViewLink</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">smokeTestFirefox.ValidateSmokeTest:ValidateCalendarLinks</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">smokeTestFirefox.ValidateSmokeTest:ValidatePurchaseAnalysisPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">smokeTestFirefox.ValidateSmokeTest:ValidateMyProfNavigation</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">smokeTestFirefox.ValidateSmokeTest:ValidateSavedReports</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">smokeTestFirefox.ValidateSmokeTest:ValidateFavoriteIcon</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">smokeTestFirefox.ValidateSmokeTest:ValidateordersPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">smokeTestFirefox.ValidateSmokeTest:ValidateCalendarPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">smokeTestFirefox.ValidateSmokeTest:ValidatePDP</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">smokeTestFirefox.ValidateSmokeTest:ValidateSearching</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
