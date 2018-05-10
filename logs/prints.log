@@ -179,3 +179,32 @@ Session ID: a7066d96-d891-4972-b612-cf9a7b843790
 07:40:00.174 [main] INFO  resources.base - User have reached the Days To Ship report after clicking on Days To Ship link from report tab
 07:40:20.107 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
 07:40:20.114 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
+10:15:19.586 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+10:15:47.848 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+10:16:08.270 [main] ERROR resources.base - Favorite page not Open
+10:16:08.271 [main] ERROR resources.base - Unable to locate element: (//a[@class='btn'])[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5856, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7868b6d9-990e-43bf-8d6d-461b22ea9cd7
+*** Element info: {Using=xpath, value=(//a[@class='btn'])[2]}
+10:16:08.816 [main] INFO  resources.base - user is searching printer using the search textbox
+10:16:28.821 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+10:16:30.377 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+10:17:11.375 [main] INFO  resources.base - User has clicked on Add to Cart on First Searched Product
+10:17:21.118 [main] INFO  resources.base - Product 1 is successfully added to Cart
+10:17:21.378 [main] INFO  resources.base - User has closed the Add to Cart Modal after adding 1st product to cart
+10:17:42.267 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+10:17:47.704 [main] INFO  resources.base - Recently Viewed Page is Opened
+10:17:58.674 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+10:17:58.688 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+10:18:06.607 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+10:18:06.622 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+10:18:13.422 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+10:18:19.759 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+10:18:19.785 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+10:18:26.029 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+10:18:32.036 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+10:18:52.146 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page

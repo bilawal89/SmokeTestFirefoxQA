@@ -463,7 +463,7 @@ Srp.getProduct4Cart().click();
 
 	@Test(priority = 11)
 	public void ValidateStandardsCatalogDetail() throws InterruptedException {
-		WebDriverWait wt = new WebDriverWait(driver,30);
+		WebDriverWait wt = new WebDriverWait(driver,20);
 		StandardsCatalog St = new StandardsCatalog(driver);
 		Thread.sleep(6000);
 		St.getProduct3New().click();
