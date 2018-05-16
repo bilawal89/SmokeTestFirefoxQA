@@ -75,8 +75,9 @@ public class ValidateSmokeTest extends base {
 	public void ValidateFavoriteIcon() throws InterruptedException {
 		Header hd = new Header(driver);
 		WebDriverWait wt = new WebDriverWait(driver, 30);
+		Thread.sleep(5000);
 		hd.getFavrtIcon().click();
-		Thread.sleep(15000);
+		Thread.sleep(10000);
 		String title = driver.getTitle();
 		String favoritesTitle = "Favorites - MarkITplace";
 		
@@ -489,11 +490,13 @@ Srp.getProduct4Cart().click();
 		}
 
 		Assert.assertEquals(title, exp);
-		wt.until(ExpectedConditions.elementToBeClickable(St.getAdd2cartbtn()));
+		/*16-may-2018-
+		 * wt.until(ExpectedConditions.elementToBeClickable(St.getAdd2cartbtn()));
 		St.getAdd2cartbtn().click();
 		wt.until(ExpectedConditions.elementToBeClickable(St.getCloseicon()));
 		St.getCloseicon().click();
 		Thread.sleep(3000);
+		*/
 	}
 
 	@Test(priority = 12)

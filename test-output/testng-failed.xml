@@ -6,15 +6,12 @@
       <class name="smokeTestFirefox.ValidateSmokeTest">
         <methods>
           <include name="ValidateFooterLinks"/>
-          <include name="ValidateSearching"/>
           <include name="ValidateAudioCablesCategory"/>
-          <include name="ValidateFavoriteIcon"/>
           <include name="ValidatePDP"/>
           <include name="ValidateSpecialOffer"/>
           <include name="ValidateCalendarLinks"/>
           <include name="ValidateStandardsCatalogDetail"/>
           <include name="ValidateAllProduct"/>
-          <include name="ValidateLogin"/>
           <include name="ValidateCheckoutFooterLogo"/>
           <include name="ValidateStandardsCatalog"/>
           <include name="ValidateFooterLogo"/>

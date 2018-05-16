@@ -208,3 +208,128 @@ Session ID: 7868b6d9-990e-43bf-8d6d-461b22ea9cd7
 10:18:26.029 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
 10:18:32.036 [main] INFO  resources.base - User Have reached the Standard Catalog Page
 10:18:52.146 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+00:19:23.160 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+00:19:50.008 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+00:20:10.424 [main] ERROR resources.base - Favorite page not Open
+00:20:10.431 [main] ERROR resources.base - Unable to locate element: (//a[@class='btn'])[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 7752, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a305e4a5-b24a-4d7c-af3f-9c48b201d7c0
+*** Element info: {Using=xpath, value=(//a[@class='btn'])[2]}
+00:20:10.925 [main] INFO  resources.base - user is searching printer using the search textbox
+00:20:30.953 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+00:20:32.175 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+00:21:13.050 [main] INFO  resources.base - User has clicked on Add to Cart on First Searched Product
+00:21:21.142 [main] INFO  resources.base - Product 1 is successfully added to Cart
+00:21:21.493 [main] INFO  resources.base - User has closed the Add to Cart Modal after adding 1st product to cart
+00:21:44.431 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+00:21:50.325 [main] INFO  resources.base - Recently Viewed Page is Opened
+00:22:06.131 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+00:22:06.141 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+00:22:14.727 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+00:22:14.739 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+00:22:25.130 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+00:22:42.628 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+00:22:42.631 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+00:22:48.498 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+00:22:54.509 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+00:23:21.819 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+12:46:48.414 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+12:47:20.242 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+12:47:58.914 [main] INFO  resources.base - user is searching printer using the search textbox
+12:48:18.930 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+12:48:19.039 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+12:48:59.852 [main] INFO  resources.base - User has clicked on Add to Cart on First Searched Product
+12:49:07.851 [main] INFO  resources.base - Product 1 is successfully added to Cart
+12:49:08.117 [main] INFO  resources.base - User has closed the Add to Cart Modal after adding 1st product to cart
+12:49:32.351 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+12:49:38.336 [main] INFO  resources.base - Recently Viewed Page is Opened
+12:49:49.257 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+12:49:49.257 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+12:49:57.101 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+12:49:57.101 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+12:50:01.476 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+12:50:05.570 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+12:50:05.570 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+12:50:14.227 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+12:50:20.242 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+12:50:41.414 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+13:01:17.851 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+13:01:28.414 [main] INFO  resources.base - user is searching printer using the search textbox
+13:01:48.415 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+13:01:48.492 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+13:02:29.336 [main] INFO  resources.base - User has clicked on Add to Cart on First Searched Product
+13:02:40.476 [main] INFO  resources.base - Product 1 is successfully added to Cart
+13:02:40.728 [main] INFO  resources.base - User has closed the Add to Cart Modal after adding 1st product to cart
+13:03:03.141 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+13:03:07.226 [main] INFO  resources.base - Recently Viewed Page is Opened
+13:03:15.789 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+13:03:15.789 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+13:03:24.148 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+13:03:24.148 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+13:03:29.601 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+13:03:34.570 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+13:03:34.570 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+13:03:41.071 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+13:03:47.086 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+13:04:06.445 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+13:04:12.336 [main] INFO  resources.base - User has clicked on All Product Nevigation button from the header
+13:04:17.352 [main] INFO  resources.base - User Have reached the All Product Page
+13:04:43.867 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+13:04:43.882 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+13:04:56.164 [main] INFO  resources.base - User has clicked on Resouces link from the header
+13:04:56.164 [main] INFO  resources.base - User Have reached the Resources Page
+13:05:04.196 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+13:05:04.196 [main] INFO  resources.base - User Have reached the Special Offer Page
+13:05:10.461 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+13:05:10.461 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+13:05:52.602 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+13:05:52.602 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+13:05:56.742 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+13:05:56.742 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+13:06:03.164 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+13:06:03.180 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+13:06:06.008 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+13:06:06.008 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+13:06:16.633 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+13:06:16.680 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+13:06:24.617 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+13:06:24.617 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+13:06:29.679 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+13:06:29.679 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+13:06:35.336 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+13:06:55.336 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+13:07:03.289 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+13:07:13.289 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+13:07:23.618 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+13:07:38.633 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+13:07:48.915 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+13:07:48.992 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+13:07:49.414 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+13:07:57.289 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+13:07:57.304 [main] INFO  resources.base - User have reached the  Calendar page after clicking on the Calendar button from the header of the page
+13:08:45.008 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from monthly view tab
+13:09:37.148 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from Detail view tab
+13:09:47.461 [main] INFO  resources.base - User has clicked on the Assets report from Report tab
+13:10:02.461 [main] INFO  resources.base - User have reached the assets report after clicking on asset link from report tab
+13:10:13.727 [main] INFO  resources.base - User has clicked on the Days To Ship report from Report tab
+13:10:28.743 [main] INFO  resources.base - User have reached the Days To Ship report after clicking on Days To Ship link from report tab
+13:10:43.446 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
+13:10:43.446 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
+14:22:12.478 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+14:22:44.572 [main] INFO  resources.base - User Have Successfully reached the favorites Page
+14:23:04.946 [main] ERROR resources.base - Favorite page not Open
+14:23:04.946 [main] ERROR resources.base - Unable to locate element: (//a[@class='btn'])[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-B75F35K', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9000, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8bcf605c-91cd-46a3-9e4a-c989f5029b16
+*** Element info: {Using=xpath, value=(//a[@class='btn'])[2]}
+14:23:05.102 [main] INFO  resources.base - user is searching printer using the search textbox
+14:23:25.103 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+14:23:25.181 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
