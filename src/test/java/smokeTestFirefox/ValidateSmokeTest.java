@@ -1002,7 +1002,7 @@ Srp.getProduct4Cart().click();
 		Assert.assertEquals(Act2, exp1);
 	}
 
-	@Test(priority = 28)
+	@Test(priority = 28,enabled=false)
 
 	public void ValidateAllReportsLinks() throws InterruptedException {
 		Thread.sleep(10000);
@@ -1047,7 +1047,7 @@ Srp.getProduct4Cart().click();
 		//Thread.sleep(2000);
 		//driver.findElement(By.xpath("(//a[text()='Assets'])[3]")).click();
 		Log.info("User has clicked on the Assets report from Report tab");
-		Thread.sleep(15000);
+		Thread.sleep(20000);
 		String title5 = driver.getTitle();
 		String exp5 = "Assets Report - MarkITplace";
 		try {
@@ -1074,7 +1074,7 @@ Srp.getProduct4Cart().click();
 		//wt.until(ExpectedConditions.elementToBeClickable(driver.findElement(By.xpath("(//a[text()='Days to Ship'])[2]"))));
 		//driver.findElement(By.xpath("(//a[text()='Days to Ship'])[2]")).click();
 		Log.info("User has clicked on the Days To Ship report from Report tab");
-		Thread.sleep(15000);
+		Thread.sleep(20000);
 		String title6 = driver.getTitle();
 		String exp6 = "Days To Ship Report - MarkITplace";
 		try {
@@ -1446,7 +1446,7 @@ Srp.getProduct4Cart().click();
 	}
 	
 	
-	@Test(priority=30,enabled=false)
+	@Test(priority=30)
 	public void ValidateCompaePage() throws InterruptedException
 	{
 		//WebDriverWait wt = new WebDriverWait(driver,20);
@@ -1454,8 +1454,8 @@ Srp.getProduct4Cart().click();
 		Thread.sleep(5000);
 		SearchResultPage srp = new SearchResultPage(driver);
 		HomePage hp = new HomePage(driver);
-		String Exp = "Product Compare - MarkITplace";
-		String act = null;
+		String Exp = null ;
+		String act = null ;
 		try {
 		hp.getsearchbox().sendKeys("printers" + Keys.ENTER);
 		Log.info("user is searching printer using the search textbox");
