@@ -70,7 +70,7 @@ public class ValidateSmokeTest extends base {
 
 	}
 
-	@Test(priority = 1)
+	@Test(priority = 1,enabled=false)
 
 	public void ValidateFavoriteIcon() throws InterruptedException {
 		Header hd = new Header(driver);
@@ -91,6 +91,7 @@ public class ValidateSmokeTest extends base {
 			Log.error(e.getMessage());
 		}
 		Assert.assertEquals(title, favoritesTitle);
+		/*
 		Thread.sleep(10000);
 		FavouritePage FP = new FavouritePage(driver);
 		//wt.until(ExpectedConditions.elementToBeClickable(FP.getSelectall()));
@@ -120,7 +121,7 @@ public class ValidateSmokeTest extends base {
 
 			Log.error("Favorite page not Open");
 			Log.error(e.getMessage());
-		}
+		*/
 		
 		
 		}

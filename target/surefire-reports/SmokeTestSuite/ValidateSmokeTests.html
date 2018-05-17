@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>27/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 17 08:54:04 PKT 2018</td>
+<td>Started on:</td><td>Thu May 17 13:57:59 PKT 2018</td>
 </tr>
-<tr><td>Total time:</td><td>603 seconds (603272 ms)</td>
+<tr><td>Total time:</td><td>606 seconds (606875 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports()'><b>ValidateSavedReports</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;my-reports&apos;]
+<td title='smokeTestFirefox.ValidateSmokeTest.ValidateFavoriteIcon()'><b>ValidateFavoriteIcon</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;my-lists&apos; and text()=&apos;Favorites&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
 System info: host: &apos;DESKTOP-B75F35K&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 720, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: e7a4f6d6-b2f2-4b44-b0c3-42fe70aa9267
-*** Element info: {Using=xpath, value=//a[@class=&apos;my-reports&apos;]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9364, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a0bf708c-7a86-445b-9cc8-4a3c54af1d36
+*** Element info: {Using=xpath, value=//a[@class=&apos;my-lists&apos; and text()=&apos;Favorites&apos;]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -94,17 +94,17 @@ Session ID: e7a4f6d6-b2f2-4b44-b0c3-42fe70aa9267
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at pageObjects.TrackPage.getSavedReports(TrackPage.java:58)
-	at smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports(ValidateSmokeTest.java:1431)
-... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace792855998", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace792855998'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;my-reports&apos;]
+	at pageObjects.Header.getFavrtIcon(Header.java:124)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateFavoriteIcon(ValidateSmokeTest.java:79)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace423733503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace423733503'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[@class=&apos;my-lists&apos; and text()=&apos;Favorites&apos;]
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
 System info: host: &apos;DESKTOP-B75F35K&apos;, ip: &apos;10.0.2.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_171&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 720, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: e7a4f6d6-b2f2-4b44-b0c3-42fe70aa9267
-*** Element info: {Using=xpath, value=//a[@class=&apos;my-reports&apos;]}
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9364, moz:profile: C:\Users\bilaw\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: a0bf708c-7a86-445b-9cc8-4a3c54af1d36
+*** Element info: {Using=xpath, value=//a[@class=&apos;my-lists&apos; and text()=&apos;Favorites&apos;]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -119,8 +119,8 @@ Session ID: e7a4f6d6-b2f2-4b44-b0c3-42fe70aa9267
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
-	at pageObjects.TrackPage.getSavedReports(TrackPage.java:58)
-	at smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports(ValidateSmokeTest.java:1431)
+	at pageObjects.Header.getFavrtIcon(Header.java:124)
+	at smokeTestFirefox.ValidateSmokeTest.ValidateFavoriteIcon(ValidateSmokeTest.java:79)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -151,8 +151,8 @@ Session ID: e7a4f6d6-b2f2-4b44-b0c3-42fe70aa9267
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
 </pre></div></td>
-<td>10</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>15</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -164,138 +164,138 @@ Session ID: e7a4f6d6-b2f2-4b44-b0c3-42fe70aa9267
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAddToCart()'><b>ValidateAddToCart</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>53</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>64</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAllProduct()'><b>ValidateAllProduct</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>9</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
-<tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateAllReportsLinks()'><b>ValidateAllReportsLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
-<td></td>
-<td>51</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>13</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateAudioCablesCategory()'><b>ValidateAudioCablesCategory</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>20</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>15</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCalendarLinks()'><b>ValidateCalendarLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>89</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>96</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCalendarPage()'><b>ValidateCalendarPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>7</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCartPage()'><b>ValidateCartPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>6</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>7</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutFooterLogo()'><b>ValidateCheckoutFooterLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>3</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutHeaderLogo()'><b>ValidateCheckoutHeaderLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>4</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateCheckoutProcess()'><b>ValidateCheckoutProcess</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>36</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
-<td title='smokeTestFirefox.ValidateSmokeTest.ValidateFavoriteIcon()'><b>ValidateFavoriteIcon</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
+<td title='smokeTestFirefox.ValidateSmokeTest.ValidateCompaePage()'><b>ValidateCompaePage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>40</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>15</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateFooterLinks()'><b>ValidateFooterLinks</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>27</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>38</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateFooterLogo()'><b>ValidateFooterLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>4</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>8</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateHeaderLogo()'><b>ValidateHeaderLogo</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>4</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>6</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateLogin()'><b>ValidateLogin</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>59</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>44</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateMyProfNavigation()'><b>ValidateMyProfNavigation</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>10</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>13</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePAEmail()'><b>ValidatePAEmail</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>11</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>10</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePDP()'><b>ValidatePDP</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>12</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>14</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidatePurchaseAnalysisPage()'><b>ValidatePurchaseAnalysisPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
 <td>20</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateRecentViewLink()'><b>ValidateRecentViewLink</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>4</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>3</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateResources()'><b>ValidateResources</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>9</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>16</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
+<tr>
+<td title='smokeTestFirefox.ValidateSmokeTest.ValidateSavedReports()'><b>ValidateSavedReports</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
+<td></td>
+<td>14</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSearching()'><b>ValidateSearching</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>20</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>26</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateSpecialOffer()'><b>ValidateSpecialOffer</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>6</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>12</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateStandardsCatalog()'><b>ValidateStandardsCatalog</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>11</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>13</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateStandardsCatalogDetail()'><b>ValidateStandardsCatalogDetail</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>19</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>23</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateTrackpage()'><b>ValidateTrackpage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>25</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>31</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 <tr>
 <td title='smokeTestFirefox.ValidateSmokeTest.ValidateordersPage()'><b>ValidateordersPage</b><br>Test class: smokeTestFirefox.ValidateSmokeTest</td>
 <td></td>
-<td>20</td>
-<td>smokeTestFirefox.ValidateSmokeTest@4f638935</td></tr>
+<td>26</td>
+<td>smokeTestFirefox.ValidateSmokeTest@1460a8c0</td></tr>
 </table><p>
 </body>
 </html>
