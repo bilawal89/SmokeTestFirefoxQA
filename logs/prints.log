@@ -16,3 +16,33 @@
 14:07:49.647 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
 14:07:49.647 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
 14:07:54.772 [main] INFO  resources.base - user is searching printer using the search textbox
+09:58:00.938 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+09:58:06.768 [main] INFO  resources.base - user is searching printer using the search textbox
+09:58:26.773 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+09:58:26.975 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+09:59:07.820 [main] INFO  resources.base - User has clicked on Add to Cart on First Searched Product
+09:59:16.868 [main] INFO  resources.base - Product 1 is successfully added to Cart
+09:59:17.134 [main] INFO  resources.base - User has closed the Add to Cart Modal after adding 1st product to cart
+09:59:44.281 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+09:59:48.598 [main] INFO  resources.base - Recently Viewed Page is Opened
+10:00:05.671 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+10:00:05.676 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+10:00:15.586 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+10:00:15.586 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+10:00:20.161 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+10:00:24.600 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+10:00:24.604 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+10:00:30.744 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+10:00:36.756 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+10:00:57.004 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+10:01:03.165 [main] INFO  resources.base - User has clicked on All Product Nevigation button from the header
+10:01:08.170 [main] INFO  resources.base - User Have reached the All Product Page
+10:01:32.499 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+10:01:32.508 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+10:01:56.289 [main] INFO  resources.base - User has clicked on Resouces link from the header
+10:01:56.289 [main] INFO  resources.base - User Have reached the Resources Page
+10:02:05.726 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+10:02:05.737 [main] INFO  resources.base - User Have reached the Special Offer Page
+10:02:13.211 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+10:02:13.227 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+10:04:18.596 [main] INFO  resources.base - Compare Page not reached
