@@ -9,7 +9,10 @@ public class HomePage {
 public WebDriver driver;
 	
 	//By Usernamefield=By.name("username");
-	By Searchbox=By.xpath("//input[@id='x_main-search']");
+	//By Searchbox=By.xpath("//input[@id='x_main-search']");
+	//By Searchbox=By.id("predictiveSearchBarForm");
+	
+	By Searchbox=By.id("x_main-search");
 	//By SearchboxFF=By.xpath("//input[@id='x_main-search' and @class='main-search']");
 	//By SearchboxFF=By.id("x_main-search");
 	

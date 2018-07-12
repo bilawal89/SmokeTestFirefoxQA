@@ -131,6 +131,10 @@ public class ValidateSmokeTest extends base {
 	public void ValidateSearching() throws InterruptedException, IOException {
 		
 		HomePage hp = new HomePage(driver);
+		Thread.sleep(20000);
+		WebDriverWait wt = new WebDriverWait(driver,50);
+		wt.until(ExpectedConditions.elementToBeClickable(hp.getsearchbox()));
+		
 		hp.getsearchbox().sendKeys("printers" + Keys.ENTER);
 		Log.info("user is searching printer using the search textbox");
 		Thread.sleep(20000);
@@ -1017,7 +1021,7 @@ Srp.getProduct4Cart().click();
 		driver.navigate().back();
 		driver.findElement(By.xpath("//a[@class='tab-link']")).click();
 		Thread.sleep(15000);
-		driver.findElement(By.xpath("(//span[text()='(4) SAMSUNG'])[1]")).click();
+		driver.findElement(By.xpath("(//span[contains(text(),'SAMSUNG')])[1]")).click();
 		Thread.sleep(15000);
 		String Act2 = driver.getTitle();
 		try {
