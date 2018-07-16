@@ -43,3 +43,65 @@ Session ID: 898e4939-b4c3-436a-8589-aef274bfab3e
 14:47:01.376 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
 14:47:01.379 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
 14:47:06.487 [main] INFO  resources.base - user is searching printer using the search textbox
+03:30:42.339 [main] INFO  resources.base - User Have Successfully Login To The Home Page
+03:31:02.752 [main] INFO  resources.base - user is searching printer using the search textbox
+03:31:22.758 [main] INFO  resources.base - User Have Successfully reached the printer search listing page
+03:31:22.841 [main] INFO  resources.base - Search result data is Appearing on the Search Result Page
+03:32:03.771 [main] INFO  resources.base - User has clicked on Add to Cart on First Searched Product
+03:32:16.458 [main] INFO  resources.base - Product 1 is successfully added to Cart
+03:32:16.771 [main] INFO  resources.base - User has closed the Add to Cart Modal after adding 1st product to cart
+03:32:36.882 [main] INFO  resources.base - User Have Successfully reached the PDP Page
+03:32:42.142 [main] INFO  resources.base - Recently Viewed Page is Opened
+03:32:52.298 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+03:32:52.321 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+03:32:58.124 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+03:32:58.124 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+03:33:04.140 [main] INFO  resources.base - User has clicked on the My Profile page from My Account dropdown
+03:33:11.500 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+03:33:11.500 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+03:33:17.562 [main] INFO  resources.base - User has clicked on the Standard Catalog Navigation button from header
+03:33:23.585 [main] INFO  resources.base - User Have reached the Standard Catalog Page
+03:33:43.932 [main] INFO  resources.base - User has clicked on the 1st Standard Product appearing and reached the PDP Page
+03:33:50.293 [main] INFO  resources.base - User has clicked on All Product Nevigation button from the header
+03:33:55.313 [main] INFO  resources.base - User Have reached the All Product Page
+03:34:17.668 [main] INFO  resources.base - User has clicked on Audio Cables Category From All Products Page
+03:34:17.668 [main] INFO  resources.base - User Have reached the Audio Cables Category Page
+03:34:30.973 [main] INFO  resources.base - User has clicked on Resouces link from the header
+03:34:30.973 [main] INFO  resources.base - User Have reached the Resources Page
+03:34:37.421 [main] INFO  resources.base - User has clicked on Special Offer Link from the header
+03:34:37.421 [main] INFO  resources.base - User Have reached the Special Offer Page
+03:34:52.190 [main] INFO  resources.base - User has clicked on Cart Icon from the header
+03:34:52.190 [main] INFO  resources.base - User Have reached the Shopping Cart Page
+03:35:45.146 [main] INFO  resources.base - user has clicked on the Close button on Java Alert Popup Page
+03:35:50.174 [main] ERROR resources.base - User have not reached the order confirmation page
+03:35:50.174 [main] ERROR resources.base - expected [Order Confirmation - MarkITplace] but found [Checkout - MarkITplace]
+03:36:04.716 [main] INFO  resources.base - User has clicked the Logo from the header of the page
+03:36:04.716 [main] INFO  resources.base - User Have reached the Home Page clicking on the Header Logo
+03:36:13.125 [main] INFO  resources.base - User has clicked the Logo from the footer of the page
+03:36:13.125 [main] INFO  resources.base - User Have reached the Home Page clicking on the footer Logo
+03:36:19.344 [main] INFO  resources.base - User has clicked on the Standard Catalog Link from the footer of the page
+03:36:19.344 [main] INFO  resources.base - User Have reached the Standard Product page after clicking on the Standard Catalog Link from the footer of the page
+03:36:22.326 [main] INFO  resources.base - User has clicked on the All product Link from the footer of the page
+03:36:22.346 [main] INFO  resources.base - User Have reached the All Product page after clicking on the Standard Catalog Link from the footer of the page
+03:36:29.006 [main] INFO  resources.base - User has clicked on the resources  Link from the footer of the page
+03:36:29.006 [main] INFO  resources.base - User Have reached the resources page after clicking on the resources Link from the footer of the page
+03:36:37.327 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+03:36:37.346 [main] INFO  resources.base - User Have reached the Special offer after clicking on the Special offer Link from the footer of the page
+03:36:44.203 [main] INFO  resources.base - User has clicked on the Special offer Link from the footer of the page
+03:36:44.203 [main] INFO  resources.base - User Have reached the Favorites after clicking on the Favorites Link from the footer of the page
+03:36:49.536 [main] INFO  resources.base - User has clicked on the Track button from the header of the page
+03:37:09.565 [main] INFO  resources.base - User have reached the Track page after clicking on the Track button from the header of the page
+03:37:16.142 [main] INFO  resources.base - User has clicked on the order button from the header of the page
+03:37:26.154 [main] INFO  resources.base - User have reached the Order page after clicking on the Order button from the header of the page
+03:37:36.546 [main] INFO  resources.base - User has clicked on the Purchase Analysis button from the header of the page
+03:37:51.552 [main] INFO  resources.base - User have reached the Purchase Analysis page after clicking on the Purchase Analysis button from the header of the page
+03:38:01.916 [main] INFO  resources.base - User have clicked on email icon on purchase analysis Page
+03:38:02.034 [main] INFO  resources.base - User have entered the email on email field at purchase analysis Page
+03:38:02.557 [main] INFO  resources.base - User have click on Send button at email popup screen at purchase analysis Page
+03:38:10.885 [main] INFO  resources.base - User has clicked on the Calendar button from the header of the page
+03:38:10.903 [main] INFO  resources.base - User have reached the  Calendar page after clicking on the Calendar button from the header of the page
+03:38:57.152 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from monthly view tab
+03:39:42.576 [main] INFO  resources.base - User have reached the expiration report after clicking on the report button from the Calendar page from Detail view tab
+03:39:59.025 [main] INFO  resources.base - User has clicked on the Saved Report icon from the header of the page
+03:39:59.025 [main] INFO  resources.base - User have reached the  Saved Report page after clicking on the Saved Report icon from the header of the page
+03:40:04.193 [main] INFO  resources.base - user is searching printer using the search textbox

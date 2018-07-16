@@ -526,10 +526,11 @@ Srp.getProduct4Cart().click();
 	}
 
 	@Test(priority = 13)
-	public void ValidateAudioCablesCategory() {
+	public void ValidateAudioCablesCategory() throws InterruptedException {
 		AllProducts AP = new AllProducts(driver);
 		AP.getAudioCablesFF().click();
 		Log.info("User has clicked on Audio Cables Category From All Products Page");
+		Thread.sleep(5000);
 		String title5 = driver.getTitle();
 		String expectedTitle = "Audio Cables - MarkITplace";
 		try {
@@ -703,9 +704,12 @@ Srp.getProduct4Cart().click();
 			Log.error("User have not reached the order confirmation page");
 			Log.error(e.getMessage());
 		}
-		//Assert.assertEquals(title5, "Order Confirmation - MarkITplace");
+		Thread.sleep(10000);
 		
-		Thread.sleep(5000);
+		
+		Assert.assertEquals(title5, "Order Confirmation - MarkITplace");
+		
+		
 		
 		
 			
