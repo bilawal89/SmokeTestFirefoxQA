@@ -219,8 +219,8 @@ public class ValidateSmokeTest extends base {
 
 		// wait.until(ExpectedConditions.elementToBeClickable(Srp.getProduct1Cart()));
 		// --wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//*[@id='cart-dialog']/div[1]/div[1]/div/div/div/button"))));
-		wait.until(ExpectedConditions.visibilityOf(Srp.getCloseIcon()));
-
+		//wait.until(ExpectedConditions.visibilityOf(Srp.getCloseIcon()));
+Thread.sleep(30000);
 		try {
 			Assert.assertEquals((Srp.getCloseIcon().isDisplayed()), true);
 			// System.out.println(driver.findElement(By.xpath("//*[@id='products-content']/div/div[2]/div/div/div[1]/h4")).isEnabled());
@@ -765,9 +765,10 @@ Srp.getProduct4Cart().click();
 
 	@Test(priority = 21)
 
-	public void ValidateFooterLinks() {
+	public void ValidateFooterLinks() throws InterruptedException {
 		Footer ft = new Footer(driver);
 		ft.getFStandCatalogFF().click();
+		Thread.sleep(10000);
 		Log.info("User has clicked on the Standard Catalog Link from the footer of the page");
 		String title1 = driver.getTitle();
 		String exp1 = "Standard Products - MarkITplace";
@@ -785,6 +786,7 @@ Srp.getProduct4Cart().click();
 		Assert.assertEquals(title1, exp1);
 
 		ft.getFAllPrdctFF().click();
+		Thread.sleep(10000);
 		Log.info("User has clicked on the All product Link from the footer of the page");
 		String title2 = driver.getTitle();
 		String exp2 = "All Products - MarkITplace";
@@ -802,6 +804,7 @@ Srp.getProduct4Cart().click();
 		Assert.assertEquals(title2, exp2);
 
 		ft.getFResourcesFF().click();
+		Thread.sleep(10000);
 		Log.info("User has clicked on the resources  Link from the footer of the page");
 		String title3 = driver.getTitle();
 		String exp3 = "Resources - MarkITplace";
@@ -819,6 +822,7 @@ Srp.getProduct4Cart().click();
 		Assert.assertEquals(title3, exp3);
 
 		ft.getFSpecialOffersFF().click();
+		Thread.sleep(10000);
 		Log.info("User has clicked on the Special offer Link from the footer of the page");
 		String title4 = driver.getTitle();
 		String exp4 = "Special Offers - MarkITplace";
@@ -836,6 +840,7 @@ Srp.getProduct4Cart().click();
 		Assert.assertEquals(title4, exp4);
 
 		ft.getFFavoritesFF().click();
+		Thread.sleep(10000);
 		Log.info("User has clicked on the Special offer Link from the footer of the page");
 		String title5 = driver.getTitle();
 		String exp5 = "Favorites - MarkITplace";

@@ -5,9 +5,8 @@
     <classes>
       <class name="smokeTestFirefox.ValidateSmokeTest">
         <methods>
-          <include name="ValidateSearching"/>
+          <include name="ValidateCheckoutProcess"/>
           <include name="closebrowser"/>
-          <include name="ValidatePDP"/>
           <include name="ValidateAddToCart"/>
         </methods>
       </class> <!-- smokeTestFirefox.ValidateSmokeTest -->
